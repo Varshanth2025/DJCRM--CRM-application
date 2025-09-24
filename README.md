@@ -18,35 +18,38 @@ A simple CRM built with Django, featuring lead and agent management, categories,
 
 - Python 3.7+
 - PostgreSQL
-- Node.js (for Tailwind CSS assets)
+- Django-Tailwind (for Tailwind CSS assets)
 
 ### Setup
 
 1. Clone the repository.
+
+--> Clone the repository using the command below :
+
+```bash
+git clone https://github.com/Varshanth2025/DJCRM--CRM-application
+
+```
+
 2. Create a new file named `.env` inside the `djcrm` folder.
 3. Copy all variables from [`djcrm/.template.env`](djcrm/.template.env) and assign your own values.
 4. Install Python dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-5. Install Node dependencies for Tailwind CSS:
-   ```sh
-   cd theme/static_src
-   npm install
-   ```
-6. Build static assets:
+5. Build static assets:
    ```sh
    npm run build
    ```
-7. Run migrations:
+6. Run migrations:
    ```sh
    python manage.py migrate
    ```
-8. Create a superuser:
+7. Create a superuser:
    ```sh
    python manage.py createsuperuser
    ```
-9. Start the development server:
+8. Start the development server:
    ```sh
    python manage.py runserver
    ```
@@ -62,5 +65,5 @@ python manage.py test
 You can import leads using the management command:
 
 ```sh
-python manage.py create_leads leads.csv user@example.com
+python manage.py create_leads leads.csv
 ```
