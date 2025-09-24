@@ -67,3 +67,24 @@ You can import leads using the management command:
 ```sh
 python manage.py create_leads leads.csv
 ```
+
+### App Preview :
+
+<table width="100%"> 
+  <tr>
+    <td width="50%">
+      <p align="center">Home and login page</p>
+      <img src="https://github.com/Varshanth2025/DJCRM--CRM-application/blob/main/static/images/home_login.png">
+    </td>
+    <td width="50%">
+      <p align="center">List of leads</p>
+      <img src="https://github.com/Varshanth2025/DJCRM--CRM-application/blob/main/static/images/leads.png">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <p align="center">Create new lead</p>
+      <img src="https://github.com/Varshanth2025/DJCRM--CRM-application/blob/main/static/images/create_new_lead.png">
+    </td>
+  </tr>
+</table>
